@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bec9da;
+}
+
+.top-bar{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.cards{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom:100px;
+}
+
+
+.card{
+    height: 400px;
+    width: 315px;
+    background-color: wheat;
+    margin-top: 2;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image{
+    width: 80%;
+    object-fit: cover;
+}
+
+.item-name{
+    margin-top: 50px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.buy-btn{
+    width: 80%;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.footer{
+       position: fixed;
+       margin-top: 60px;
+       padding: 20px;
+       width: 100%;
+       background-color: wheat;
+       bottom: 0px;
+}
+
+.logout{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
